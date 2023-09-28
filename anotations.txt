@@ -1,0 +1,19 @@
+git init -> inicia um repositório
+git status -> retorna o status do repositório
+git remote add origin <link>s -> adicionará no repositório remoto com o nome origin para o servidor
+rm -rf .git -> vai remover recursivamente e forçadamente a pasta .git e seus arquivos e não será mais um repositório git
+git restore <file name> -> vai restaurar o arquivo e descarta alterações locais
+git log -> mostra histórico de commits
+git commit --amend -m "messasge" -> altera a mensagem do commit
+git reset --soft <hash do commit> -> apaga commit e adiciona arquivos na área de preparação
+git reset --mixed <hash do commit> -> apaga commit e adiciona arquivos como não rastreados
+git reset --hard <hash do commit> -> apaga commit e arquivos
+git reset <file name> -> to unstage a file
+git restore --staged <file name> -> to unstage a file
+git reflog -> mostra um histórico mais detalhado
+git branch <branch name> -> cria uma branch nova
+git checkout <branch name> -> muda pra branch
+git checkout -b <branch name> -> cria uma nova branch e muda pra ela
+git branch -M main -> pra mudar o nome da branch de master pra main
+git branch -v -> ultimo commit de cada branch
+git branch -d <branch name> -> para excluir a branch
