@@ -11,3 +11,5 @@ git reset --hard <hash do commit> -> apaga commit e arquivos
 git reset <file name> -> to unstage a file
 git restore --staged <file name> -> to unstage a file
 git reflog -> mostra um histórico mais detalhado
+
+teste para merge
