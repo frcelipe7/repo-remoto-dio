@@ -16,3 +16,4 @@ git checkout <branch name> -> muda pra branch
 git checkout -b <branch name> -> cria uma nova branch e muda pra ela
 git branch -M main -> pra mudar o nome da branch de master pra main
 git branch -v -> ultimo commit de cada branch
+git branch -d <branch name> -> para excluir a branch
